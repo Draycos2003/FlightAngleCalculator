@@ -1,6 +1,6 @@
 #pragma once
 
-int a = 0;
-int b = 0;
+float a = 0;
+float b = 0;
 
-int FlightAngle(int a, int b);
+float FlightAngle(float a, float b);

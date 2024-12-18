@@ -4,17 +4,17 @@
 #include "FlightAngleCalculator.h"
 #include <cstdlib>
 
-int FlightAngle(int a, int b)
+float FlightAngle(float a, float b)
 {
-    int temp = pow(a, 2) + pow(b, 2);
-    int c = sqrt(temp);
+    float temp = pow(a, 2) + pow(b, 2);
+    float c = sqrt(temp);
 
     std::cout << "Calculated Flight Angle: " << c << std::endl;
 
     return c;
 }
 
-int main()
+float main()
 {
     int choice;
 
