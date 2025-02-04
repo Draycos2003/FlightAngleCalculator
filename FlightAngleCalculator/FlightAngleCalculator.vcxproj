@@ -127,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FlightAngleCalculator.cpp" />
+    <ClCompile Include="PythagoreanTheoremCalculator.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FlightAngleCalculator.h" />
+    <ClInclude Include="PythagoreanTheoremCalculator.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

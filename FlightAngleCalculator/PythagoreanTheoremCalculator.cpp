@@ -1,15 +1,15 @@
 
 
 #include <iostream>
-#include "FlightAngleCalculator.h"
+#include "PythagoreanTheoremCalculator.h"
 #include <cstdlib>
 
-float FlightAngle(float a, float b)
+float PythagoreanTheorem(float a, float b)
 {
     float temp = pow(a, 2) + pow(b, 2);
     float c = sqrt(temp);
 
-    std::cout << "Calculated Flight Angle: " << c << std::endl;
+    std::cout << "Side C: " << c << std::endl;
 
     return c;
 }
@@ -21,9 +21,9 @@ float main()
     do
     {
         system("cls");
-        std::cout << "~| Flight Angle Calculator |~" << std::endl;
+        std::cout << "~| Pythagorean Theorem Calculator |~" << std::endl;
         std::cout << std::endl;
-        std::cout << "1: Calculate Flight Angle\n";
+        std::cout << "1: Calculate Pythagorean Theorem\n";
         std::cout << "2: Exit\n";
         std::cout << std::endl;
         std::cout << "Select A Menu Option: ";
@@ -34,19 +34,20 @@ float main()
             case 1:
                 system("cls");
                 std::cout << std::endl;
-                std::cout << "Enter Horizontal Distance: ";
+                std::cout << "Enter Side A: ";
                 std::cin >> a;
-                std::cout << "Enter Vertical Distance: ";
+                std::cout << "Enter Side B: ";
                 std::cin >> b;
                 std::cout << std::endl;
 
-                FlightAngle(a, b);
+                PythagoreanTheorem(a, b);
                 system("pause");
                 break;
 
             case 2:
                 system("cls");
                 std::cout << "Session Terminated!" << std::endl;
+                std::cout << "Thanks for using my app. See you nex time!" << std::endl;
                 system("pause");
                 break;
 
@@ -58,11 +59,7 @@ float main()
         
     }
     while (choice != 2);
-
-    system("cls");
-    std::cout << "Thanks for using my app. See you nex time!" << std::endl;
-    system("pause");
-
+    
     system("cls");
     return 2;
 }

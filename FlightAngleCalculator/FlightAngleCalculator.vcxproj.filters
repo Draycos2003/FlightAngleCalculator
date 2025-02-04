@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FlightAngleCalculator.cpp">
+    <ClCompile Include="PythagoreanTheoremCalculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FlightAngleCalculator.h">
+    <ClInclude Include="PythagoreanTheoremCalculator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
